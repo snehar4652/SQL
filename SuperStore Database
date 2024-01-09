@@ -63,7 +63,7 @@ FROM superstore
 WHERE category = 'Kitchen Supplies'
 GROUP By item_name; 
 
-#8 Calcuating how many air purifiers are in stock? 
+#8 Calculating how many air purifiers are in stock? 
 SELECT stock_quantity,item_name
 FROM superstore
 WHERE stock_quantity>0 AND item_name='Air Purifier';
